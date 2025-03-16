@@ -8,31 +8,31 @@ import { ChevronRight } from 'lucide-react';
 const destinations = [
   {
     id: 1,
-    name: 'Swiss Alps',
-    description: 'Majestic peaks and pristine valleys in the heart of Europe.',
-    image: 'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb',
-    location: 'Switzerland',
+    name: 'Himalayan Ranges',
+    description: 'Majestic peaks and serene valleys in the northernmost part of India.',
+    image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be',
+    location: 'Himachal Pradesh, India',
   },
   {
     id: 2,
-    name: 'Canadian Rockies',
-    description: 'Wild, rugged landscapes with turquoise glacial lakes.',
-    image: 'https://images.unsplash.com/photo-1472396961693-142e6e269027',
-    location: 'Canada',
+    name: 'Western Ghats',
+    description: 'Lush green mountains with rich biodiversity and waterfalls.',
+    image: 'https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc',
+    location: 'Kerala, India',
   },
   {
     id: 3,
-    name: 'Patagonia',
-    description: 'Dramatic mountain peaks at the end of the world.',
-    image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e',
-    location: 'Argentina/Chile',
+    name: 'Thar Desert',
+    description: 'Expansive golden dunes and vibrant cultural heritage.',
+    image: 'https://images.unsplash.com/photo-1469041797191-50ace28483c3',
+    location: 'Rajasthan, India',
   },
   {
     id: 4,
-    name: 'Japanese Alps',
-    description: 'Ancient volcanic ranges with hot springs and traditional culture.',
-    image: 'https://images.unsplash.com/photo-1545571576-1dc25e5abd68',
-    location: 'Japan',
+    name: 'Aravalli Range',
+    description: 'Ancient mountain range with rich history and wildlife sanctuaries.',
+    image: 'https://images.unsplash.com/photo-1526772662000-3f88f10405ff',
+    location: 'Rajasthan, India',
   },
 ];
 
@@ -43,9 +43,9 @@ export function DestinationsSection() {
     <section className="py-24">
       <div className="section-container">
         <div className="max-w-xl mx-auto text-center mb-16 md:mb-20">
-          <h2 className="text-3xl md:text-4xl font-serif mb-4">Breathtaking Destinations</h2>
+          <h2 className="text-3xl md:text-4xl font-serif mb-4">Incredible India Destinations</h2>
           <p className="text-muted-foreground">
-            Explore our carefully selected mountain ranges, each offering unique experiences and natural beauty.
+            Explore our carefully selected Indian landscapes, each offering unique experiences and natural beauty.
           </p>
         </div>
         
