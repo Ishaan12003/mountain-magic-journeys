@@ -7,6 +7,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi
 } from "@/components/ui/carousel";
 import { LazyImage } from './LazyImage';
 import { Star } from 'lucide-react';
@@ -52,6 +53,14 @@ const testimonials = [
 
 export function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [api, setApi] = useState<CarouselApi>();
+
+  const handleApiChange = (newApi: CarouselApi) => {
+    setApi(newApi);
+    newApi?.on('select', () => {
+      setCurrentIndex(newApi.selectedScrollSnap());
+    });
+  };
 
   return (
     <section className="py-24">
@@ -69,10 +78,7 @@ export function TestimonialsSection() {
             loop: true,
           }}
           className="w-full"
-          onSelect={(api) => {
-            const selectedIndex = api.selectedScrollSnap();
-            setCurrentIndex(selectedIndex);
-          }}
+          setApi={handleApiChange}
         >
           <CarouselContent className="-ml-2 md:-ml-4">
             {testimonials.map((testimonial, index) => (
