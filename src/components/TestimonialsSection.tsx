@@ -13,44 +13,43 @@ import { LazyImage } from './LazyImage';
 import { Star } from 'lucide-react';
 
 const testimonials = [
-  {
+   {
     id: 1,
     name: 'Emily Johnson',
     title: 'Adventure Enthusiast',
-    quote: 'The guided trek through the Alps was life-changing. Our guide knew all the hidden spots and shared incredible stories about the region.',
+    quote: 'The trek through the Western Ghats was absolutely breathtaking. Our guide introduced us to unique wildlife and untouched nature trails that I will never forget.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956',
-    destination: 'Swiss Alps',
+    destination: 'Western Ghats',
   },
   {
     id: 2,
     name: 'Michael Chen',
     title: 'Photographer',
-    quote: 'As a landscape photographer, I was blown away by the locations we visited. The guides understood exactly what lighting and compositions I was looking for.',
+    quote: 'The Himalayan landscapes were a dream come true for a photographer like me. Every corner revealed a new and stunning view, perfect for capturing the essence of nature.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
-    destination: 'Canadian Rockies',
+    destination: 'Himalayan Ranges',
   },
   {
     id: 3,
     name: 'Sophia Rodriguez',
     title: 'Yoga Instructor',
-    quote: 'The mountain retreat was the perfect balance of adventure and tranquility. I returned home feeling completely rejuvenated and inspired.',
+    quote: 'The yoga retreat in the Aravalli Range was the perfect mix of peace and exploration. I came back feeling balanced, connected with nature, and full of energy.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb',
-    destination: 'Patagonia',
+    destination: 'Aravalli Range',
   },
   {
     id: 4,
     name: 'James Wilson',
     title: 'Executive',
-    quote: 'Everything was seamlessly organized from start to finish. The accommodations were luxurious and the experiences were authentic and memorable.',
+    quote: 'From the tea plantations to the serene hill stations, my journey through the Nilgiri Hills was seamless and unforgettable. The cultural experiences were deeply enriching.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d',
-    destination: 'Japanese Alps',
+    destination: 'Nilgiri Hills',
   },
-];
-
+]; 
 export function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [api, setApi] = useState<CarouselApi>();
