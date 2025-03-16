@@ -69,7 +69,10 @@ export function TestimonialsSection() {
             loop: true,
           }}
           className="w-full"
-          onSelect={(index) => setCurrentIndex(index)}
+          onSelect={(api) => {
+            const selectedIndex = api.selectedScrollSnap();
+            setCurrentIndex(selectedIndex);
+          }}
         >
           <CarouselContent className="-ml-2 md:-ml-4">
             {testimonials.map((testimonial, index) => (
