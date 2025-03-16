@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -32,7 +33,7 @@ export function HeroSection() {
               <Link to="/destinations">Explore Destinations</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 transition-all">
-              <Link to="/experiences" className="Make this font similar to explore destination button">View Experiences</Link>
+              <Link to="/experiences">View Experiences</Link>
             </Button>
           </div>
         </div>
