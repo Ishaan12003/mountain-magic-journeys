@@ -1,18 +1,12 @@
-# Welcome to your Lovable project
+# Mountain Travel Website
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/93a3ac64-7ab6-4540-8e2f-40371d20d910
+A simple and aesthetic website to showcase the various types of mountain travel destinations and experiences in India
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/93a3ac64-7ab6-4540-8e2f-40371d20d910) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
